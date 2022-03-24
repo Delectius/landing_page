@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1F2937;
+    background: #1F2937;
     color: white;
 }
 .headerLogo{
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #1F2937;
+    background: #1F2937;
     color: #F9FAF8;
     padding: 48px;
 }
@@ -41,9 +41,10 @@
     margin-top: -25px;
 }
 .sign_button{
-    background-color: #3882F6;
+    background: #3882F6;
     padding: 0.5rem 2rem;
     border-radius: 0.5rem;
+    border: 1px solid #3882F6;
     font-weight: bold;
     color:#E5E7EB;
 }
@@ -89,7 +90,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background: #E5E7EB;
     font-style: italic;
     font-size: 36px;
     padding: 100px;
@@ -106,3 +107,35 @@
     font-weight: 900;
  width: 80%;
 }
+.callSign{
+    display: flex;
+    justify-content: space-around;
+    background: #3882F6;
+    border-radius: 10px;
+    width: 800px;
+    margin: 75px auto;
+    padding: 50px;
+}
+.callSign button{
+    background: #3882F6;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 1px 50px;
+    border-radius: 0.5rem;
+    color:#E5E7EB;
+    border: 2px solid #F9FAF8;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #F9FAF8;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 25px;
+}
+
