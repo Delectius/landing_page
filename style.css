@@ -10,13 +10,13 @@
     color: #F9FAF8;
 }
 .header,ul,a{
-display: flex;
-padding: 0;
-text-decoration: none;
-color: #E5E7EB;
-list-style: none;
-gap: 1rem;
-font-size: 18px;
+    display: flex;
+    padding: 0;
+    text-decoration: none;
+    color: #E5E7EB;
+    list-style: none;
+    gap: 1rem;
+    font-size: 18px;
 }
 .top{
     display: flex;
@@ -24,7 +24,6 @@ font-size: 18px;
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    
     padding: 48px;
 }
 .left_top{
